@@ -1,0 +1,647 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: josep;
+    src: url(JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: meri;
+    src: url(Merriweather-Bold.ttf);
+}
+
+body{
+    margin: auto;
+}
+
+.line-1 {
+    border-top: 1px solid white;
+    width: 9%;
+    margin-top: 2%;
+  }
+  
+.line-2 {
+    border-top: 1px solid white;
+    width: 9%;
+}
+
+.line-3 {
+    border-top: 1px solid white;
+    width: 23%;
+    margin-top: 4%;
+}
+  
+.halaman1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpeg);
+}
+
+.porto{
+    height: 300px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    line-height: 50px;
+    font-family: josep;
+    animation: identifier 500ms;
+}
+
+.vid1{
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    margin-top: 68px;
+    font-family: Calibri;
+}
+
+.text1 {
+    opacity: 10%;
+}
+
+.text2 {
+    opacity: 30%;
+}
+
+.text3 {
+    opacity: 40%;
+}
+
+.text4 {
+    opacity: 50%;
+}
+
+.text5 {
+    opacity: 60%;
+}
+
+.text6 {
+    opacity: 100%;
+}
+
+.text6::before{
+    rotate: -90deg;
+    color: yellow;
+    content: "2022";
+    font-size: 20px;
+    position: absolute;
+    right: 257px;
+    left: -168px;
+    padding-left: 13px;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 30px solid yellow;
+    margin-left: 45.5%;
+    margin-top: -1%
+}
+
+.halaman2{
+    display: flex;
+    width: 100%;
+    height: 130VH;
+    background-image: url(background.jpeg);  
+}
+
+.halaman3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpeg);
+}
+
+.halaman4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpeg);
+}
+
+.halaman5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpeg);
+}
+
+.halaman6{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpeg);
+}
+
+.foto1 {
+    width: 31%;
+    height: 100%;
+}
+.foto{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    border: solid 10px yellow;
+}
+
+.text7::after{
+    content:"";
+}
+
+.text7 {
+    color: white;
+    font-size: 60px;
+    font-family: meri;
+    margin-left: 1.5%;
+}
+
+.text8 {
+    margin-left: 2%;
+    color: yellow;
+    font-size: 30px;
+    font-family: calibri;
+}
+
+.text8 span {
+    margin-top: -90%;
+}
+
+.text8 span::after {
+    content: "";
+    border-right: 1px solid white;
+    padding: 0 12px;
+}
+
+.none::after {
+    content: "";
+    border-right: 0 !important;
+}
+
+.con{
+    font-family: meri;
+    font-size: 60px;
+    color: white;
+}
+
+.contactprof1 {
+    margin-left: 25%;
+    display: flex;
+    margin-top: 10%;
+}
+
+.contactprof {
+    display: flex;
+}
+
+.profile{
+    margin-left: 18%;
+}
+
+.aturhp{
+    display: flex;
+    align-items: center;
+}
+
+.aturmail{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.aturig{
+    display: flex;
+    align-items: center;
+}
+
+.aturbeh{
+    margin-top: -6%;
+    display: flex;
+    align-items: center;
+    margin-left: -3%;
+}
+
+.hp{
+    width: 37px;
+    height: 55px;
+}
+
+.nomor{
+    margin-left: 4%;
+    color: white;
+    font-family: meri;
+}
+
+.Mail{
+    width: 50px;
+    height: 40px;
+}
+
+.gmail {
+    margin-left: 4%;
+    font-family: meri;
+    color: white;
+}
+.text71{
+    width: 70%;
+    height: 100%;
+}
+
+.pro {
+    font-family: meri;
+    font-size: 60px;
+    color: white; 
+}
+
+.ig {
+    margin-top: 2%;
+    width: 51px;
+    height: 54px
+}
+
+.ig2 {
+    margin-left: 4%;
+    font-family: meri;
+    color: white;
+}
+
+.Beh {
+    width: 77px;
+    height: 79px;
+}
+
+.Be {
+    margin-left: 1.9%;
+    color: white;
+    font-family: 'meri'
+}
+
+.wrapper {
+    font-family: 'HelveticaNeueThin', 'HelveticaNeue-Thin', 'Helvetica', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.skill {
+    font-size: 60px;
+    font-family: meri;
+    color: white;
+}
+
+.per1{
+    color: white;
+    font-family: josep;
+    font-size: 20px;
+}
+
+img.pr{
+    width: 100%;
+}
+
+.Ae{
+    margin-top: -25%;
+    width: 55%;
+    height: 260%;
+    position: absolute;
+    margin-left: -79;
+}
+
+.Ai{
+    margin-top: -25%;
+    width: 55%;
+    height: 260%;
+    position: absolute;
+    margin-left: -66
+}
+
+.atur1{
+    margin-left: -1.5%;
+}
+
+.per2{
+    color: white;
+    font-family: josep;
+    font-size: 20px;
+}
+
+.per3{
+    color: white;
+    font-family: josep;
+    font-size: 20px;
+}
+
+.person{
+    color: yellow;
+    font-size: 25px;
+    font-family: meri;
+}
+
+.vid{
+    color: white;
+    font-size:70px ;
+    font-family: josep;
+}
+
+.nomor3{
+    color: white;
+    font-size: 35px;
+    font-family: meri;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 38%; 
+}
+
+.atur2{
+    margin-left: 2%;
+}
+
+.work1 {
+    width: 31%;
+    height: 30%;
+    opacity: 30%;
+}
+
+.work1-1 {
+    width: 31%;
+    height: 60%;
+    opacity: 30%;
+}
+
+
+.work2 {
+    width: 31%;
+    height: 30%;
+    opacity: 30%;
+}
+
+.work3 {
+    width: 31%;
+    height: 30%;
+    opacity: 30%;
+}
+
+.work3-1 {
+    width: 25%;
+    opacity: 30%;
+}
+
+.work4 {
+    width: 31%;
+    height: 30%;
+    opacity: 30%;
+}
+
+.navi{
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.got{
+    font-family: meri;
+    font-size: 50px;
+    stroke: black;
+    color: white;
+    margin-left: 28%
+}
+
+.con1{
+    font-family: meri;
+    font-size: 60px;
+    color: white;
+    margin-top: -0.5%;
+}
+
+.hp1{
+    width: 37px;
+    height: 55px;
+    margin-top: -3%;
+}
+
+.nomor1{
+    color: white;
+    font-size: 35px;
+    font-family: meri;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 4%;
+}
+
+.Mail1{
+    width: 50px;
+    height: 40px;
+    margin-top: 1%;
+}
+
+.gmail1 {
+    font-family: meri;
+    font-size: 25;
+    color: white;
+    margin-top: -2.5%;
+    margin-left: 4.7%;  
+}
+
+.pro1 {
+    font-family: meri;
+    font-size: 60px;
+    color: white;
+    margin-left: 40%;
+    margin-top: -14.8%;
+}
+
+.ig1 {
+    padding-left: 40%;
+    width: 51px;
+    height: 54px;
+    margin-top: -3%;
+}
+
+.ig3 {
+
+    font-family: meri;
+    color: white;
+    font-size: 35;
+    margin-top: -3.5%;
+    margin-left: 44.5%;
+}
+
+.Beh1 {
+    padding-left: 39.3%;
+    width: 77px;
+    height: 79px;
+    margin-top: -2%
+}
+
+.Be2 {
+    color: white;
+    font-family: 'meri';
+    margin-top: -4%;
+    font-size: 35px;
+    padding-left: 45%;
+}
+
+.hallast{
+    margin-left: 1%;
+    margin-top: 15%;
+}
+
+.lasttod{
+    line-height: 4%;
+}
+
+.lasttext1{
+    font-family: josep;
+    font-size: 25px;
+    margin-top: 10%;
+    margin-left: 3.5%;
+    color: white;
+}
+/*BAR*/
+.barBorder-1{
+    width: 100%;
+    height: 40px;
+    border: solid 3px grey;
+    position: relative;
+}
+.bar{
+    padding-right: 100px;
+}
+.barFill-5{
+    width: 30%;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.barFill-6{
+    width: 70%;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+.barFill-7{
+    width: 60%;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+.barBorder-2{
+    width: 200px;
+    height: 40px;
+    border: solid 3px grey;
+    position: absolute;
+    margin-left: 10cm;
+    margin-top: -39px;
+    z-index: 9;
+}
+.barFill-2{
+    width: 150px;
+    height: 44px;
+    background-color: yellow;
+    position: absolute;
+    margin-left: 10cm;
+    margin-top: -38px;
+}
+.barBorder-3{
+    width: 200px;
+    height: 40px;
+    border: solid 3px grey;
+    position: absolute;
+    margin-left: 18cm;
+    margin-top: -39px;
+    z-index: 9;
+}
+.barFill-3{
+    width: 140px;
+    height: 44px;
+    background-color: yellow;
+    position: absolute;
+    margin-left: 18cm;
+    margin-top: -38px;
+}
+
+.percent {
+    display: flex;
+    flex-direction: column;
+}
+
+.p1{
+    text-align: right;
+}
+
+.atur1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bagian1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.bagian2{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-top: 2%;
+}
+
+.bagian3{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+img.pr {
+    margin-top: 29%;
+    width: 100%;
+}
